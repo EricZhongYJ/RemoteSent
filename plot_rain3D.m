@@ -171,7 +171,7 @@ open(MovAvi)
 
 figure(1)
 hold on
-for mov=1:1:60/5*3+1 %movies
+for mov=1:1:60/5*9+1 %movies
     figure(1)
     clf
     contour(x,z,transpose(qt(:,:,mov)),100); colorbar;
